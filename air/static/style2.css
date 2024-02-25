@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root{
+    --orange:#ffa500;
+}
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-transform:capitalize;
+  outline:none;
+  border:none;
+  text-decoration:none;
+  transition:all .2s linear;
+}
+
+.form-label{
+    font-size: 2rem;
+}
+
+.form-control{
+   height: 4rem;
+   border-radius: 1.7rem; 
+   font-size: 1.5rem;
+}
+
+.newform-label{
+    font-size: 2rem;
+}
+
+.newform-control{
+   height: 4rem;
+   border-radius: 1.7rem; 
+   font-size: 1.5rem;
+}
+.form-label{
+    font-size: 2rem;
+}
+
+.form-control{
+   height: 4rem;
+   border-radius: 1.7rem; 
+   font-size: 1.5rem;
+}
+
+.newform-label{
+    font-size: 2rem;
+}
+
+.newform-control{
+   height: 4rem;
+   border-radius: 1.7rem; 
+   font-size: 1.5rem;
+}
+
+.fa-2xl {
+    font-size: 8em; 
+    height: 5rem;
+    margin-top: 5rem;
+}
+  
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior:smooth;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    background:var(--orange);
+    color:#fff;
+    padding:.8rem 3rem;
+    border:.2rem solid var(--orange);
+    cursor:pointer;
+    font-size:1.7rem;
+    
+}
+.cardd{
+    border:solid 0.3px gray;
+    
+}
+.tableprofile {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.tableprofile td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tableprofile .label {
+    font-size:2rem;
+    color:var(--orange);
+    background-color: white;
+}
+.tableprofile .value {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+.fa-2xl {
+    font-size: 8em; 
+    height: 5rem;
+    margin-top: 5rem;
+}
+  
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-padding-top:6rem;
+    scroll-behavior:smooth;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:1rem;
+    background:var(--orange);
+    color:#fff;
+    padding:.8rem 3rem;
+    border:.2rem solid var(--orange);
+    cursor:pointer;
+    font-size:1.7rem;
+}
+
+.avatar-ctn {
+    background-color: orange;
+    text-align: center;
+}
+
+.avatar {
+    width: 55%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+  .bodyres .table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 35rem;
+}
+
+.bodyres thead {
+    background-color: var(--orange);
+    font-size: 15px;
+}
+
+.bodyres th,
+td {
+    padding: 12px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.bodyres th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bodyres tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+  
+.label {
+    font-weight: bold;
+  
+    margin-left: 3rem;
+}
+  
+.value {
+    margin-left: 5rem;
+}
+.button {
+    background-color:var(--orange);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 1.5rem;  
+}
+  
+.button:hover {
+    background-color: var(--orange);
+}
+.header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+  
+.titlepage {
+   
+    margin-top: 2rem;
+}
+  
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
